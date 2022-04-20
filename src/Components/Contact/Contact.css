@@ -1,0 +1,254 @@
+.ContactContainer{
+    width:100%;
+    height:35rem;
+    margin-left:0;
+    margin-right:0;
+    display:inline-block;
+    position:relative;
+    background-color: rgba(232, 241, 96, 0.32);
+    
+}
+
+.Container5{
+    display: inline-block;
+    width:80%;
+    height:18rem;
+    margin-left:10%;
+    margin-top:4rem;
+    background:transparent;
+}
+.Side1{
+    display:block;
+    background-color: rgb(68, 73, 23);
+    width: 28%;
+    height:21rem;
+    float:left;
+    position:absolute;
+    top:5.5rem;
+    left:18%;
+    border-radius: 12px;
+
+}
+.Side1 h5{
+    color: rgb(222, 236, 183);
+    font-weight:500;
+    margin-left:1rem;
+    margin-top:0.5rem;
+    font-size: 0.6rem;
+    letter-spacing: 0.22rem;
+    
+}
+.Side1 h3{
+    color:white;
+    margin-left:1rem;
+    font-weight: 400;
+    margin-top:0.5rem;
+}
+.Side1 p{
+    color:white;
+    line-height: 0.7rem;
+    font-size: 0.6rem;
+    letter-spacing: 0.13rem;
+    margin-left:1rem;
+}
+
+
+.Side2{
+    display:block;
+    background-color: white;
+    width:82%;
+    float:right;
+    height:24rem;
+    border-radius: 12px;
+
+}
+.Enqform{
+    display: block;
+    width:60%;
+    float:right;
+    height:18rem;
+}
+.Enqform h3{
+    text-align: center;
+    margin-top:0.5rem;
+    font-weight: 500;
+    color:rgb(68, 73, 23);
+
+}
+.Tbox{
+    width:90%;
+    margin-left:5%;
+}
+.Tarea{
+    width:94%;
+    margin-left:5%;
+}
+.Button{
+    background-color:rgb(237, 242, 194);
+    color:black;
+    font-weight:600;
+    width:90%;
+    margin-left:5%;
+}
+label{
+    font-size: 0.8rem;
+    color:rgb(68, 73, 23);
+    width:94%;
+    margin-left:5%;
+}
+
+
+
+.SocialIcons{
+    display:block;
+    width:80%;
+    height:3rem;
+    margin-left:0;
+    margin-top:0;
+    color:white;
+}
+.SocialIcons a{
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+/*Responsive CSS for Tablets*/
+
+@media (max-width:850px) and (min-width:551px){
+
+}
+
+
+
+
+
+
+
+
+
+/*Responsive CSS for Mobile*/
+
+@media (max-width:550px){
+    .ContactContainer{
+        width:100%;
+        height:35rem;
+        margin-left:0;
+        margin-right:0;
+        display:inline-block;
+        position:relative;
+        background-color: rgba(232, 241, 96, 0.32);
+        
+    }
+    
+    .Container5{
+        display: inline-block;
+        width:90%;
+        height:18rem;
+        margin-left:5%;
+        margin-top:4rem;
+        background:transparent;
+    }
+    .Side1{
+        display:block;
+        background-color: rgb(68, 73, 23);
+        width: 45%;
+        height:22rem;
+        float:left;
+        position:absolute;
+        top:5.1rem;
+        left:5%;
+        border-radius: 12px;
+    
+    }
+    .Side1 h5{
+        color: rgb(222, 236, 183);
+        font-weight:500;
+        margin-left:1rem;
+        margin-top:0.5rem;
+        font-size: 0.6rem;
+        letter-spacing: 0.22rem;
+        
+    }
+    .Side1 h3{
+        color:white;
+        margin-left:1rem;
+        font-weight: 400;
+        margin-top:0.5rem;
+    }
+    .Side1 p{
+        color:white;
+        line-height: 0.7rem;
+        font-size: 0.6rem;
+        letter-spacing: 0.08rem;
+        margin-left:1rem;
+    }
+    
+    
+    .Side2{
+        display:block;
+        background-color: white;
+        width:82%;
+        float:right;
+        height:24rem;
+        border-radius: 12px;
+    
+    }
+    .Enqform{
+        display: block;
+        width:60%;
+        float:right;
+        height:18rem;
+    }
+    .Enqform h3{
+        text-align: center;
+        margin-top:0.5rem;
+        font-weight: 500;
+        color:rgb(68, 73, 23);
+    
+    }
+    .Tbox{
+        width:80%;
+        margin-left:5%;
+    }
+    .Tarea{
+        width:80%;
+        margin-left:5%;
+    }
+    .Button{
+        background-color:rgb(237, 242, 194);
+        color:black;
+        font-weight:600;
+        width:80%;
+        margin-left:5%;
+    }
+    label{
+        font-size: 0.8rem;
+        color:rgb(68, 73, 23);
+        width:94%;
+        margin-left:5%;
+    }
+    
+    
+    
+    .SocialIcons{
+        display:block;
+        width:80%;
+        height:3rem;
+        margin-left:0;
+        margin-top:0;
+        color:white;
+    }
+    .SocialIcons a{
+        color:white;
+        text-decoration: white;
+    }
+   
+
+}

@@ -1,0 +1,356 @@
+.ProductContainer{
+    width:100%;
+    height:30rem;
+    margin-left:0;
+    margin-right:0;
+    display:inline-block;
+    position:relative;
+    
+}
+.Container2{
+    width:96%;
+    margin-left:2%;
+    display:block;
+    height:80rem;
+    margin-top:4.4rem;
+    
+}
+.Container2 .Contheader{
+    width:96%;
+    margin-left:2%;
+    float:left;
+    color:rgb(89, 87, 16);
+}
+.Btn1{
+	display:block;
+	height:25px;
+	width:14%;
+    background-color:rgb(255, 251, 194);
+	border-radius:12px;
+	text-align:center;
+	padding-top:6px;
+    float:right;
+    position:absolute;
+	box-shadow: 0px 2px 6px rgba(0,0,0,0.9);
+    top:4.6rem;
+    left:82%;
+    cursor: pointer;
+}
+.Btn1 p{
+    text-decoration: none;
+    Color:rgb(76, 67, 16);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+
+.Container2 .Prod{
+    width:30%;
+    margin-left:1.66%;
+    margin-right:1.66%;
+    border-radius: 12px;
+    height:10rem;
+    display:block;
+    float:left;
+    margin-top:2rem;
+    box-shadow: 2px 2px 3px 1px rgba(170, 170, 170, 0.4);
+    background-color: rgb(255, 253, 234);
+}
+.Prod .PImage{
+    width:40%;
+    height:10rem;
+    float:left;
+    display:block;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    
+
+}
+.PImage img{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height:10rem;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+
+}
+
+.PImage img:hover{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height:10.8rem;
+    transform: translate(-0.5rem, -0.4rem);
+    border-top-left-radius: 12px;
+    width:110%;
+    border-bottom-left-radius: 12px;
+
+}
+
+.Prod .PInfo{
+    width:54%;
+    margin-left:3%;
+    margin-top:0.5rem;
+    margin-bottom: 0.5rem;
+    height:9rem;
+    float:left;
+    display:block;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+}
+
+.PInfo h4{
+    color:rgb(78, 77, 14);
+}
+.PInfo p{
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsive CSS for Tablet*/
+@media (max-width:850px) and (min-width:551px){
+    .ProductContainer{
+        width:100%;
+        height:42rem;
+        margin-left:0;
+        margin-right:0;
+        display:inline-block;
+        position:relative;
+        
+    }
+    .Container2{
+        width:96%;
+        margin-left:2%;
+        display:block;
+        height:80rem;
+        margin-top:4.4rem;
+        
+    }
+    .Container2 .Contheader{
+        width:96%;
+        margin-left:2%;
+        float:left;
+        color:rgb(89, 87, 16);
+    }
+    .Btn1{
+        display:block;
+        height:25px;
+        width:20%;
+        background-color:rgb(255, 251, 194);
+        border-radius:12px;
+        text-align:center;
+        padding-top:6px;
+        float:right;
+        position:absolute;
+        box-shadow: 0px 2px 6px rgba(0,0,0,0.9);
+        top:4.6rem;
+        left:70%;
+    }
+    .Btn1 a{
+        text-decoration: none;
+        Color:rgb(76, 67, 16);
+        font-weight: 500;
+    }
+    
+    
+    
+    
+    .Container2 .Prod{
+        width:45%;
+        margin-left:2.5%;
+        margin-right:2.5%;
+        border-radius: 12px;
+        height:10rem;
+        display:block;
+        float:left;
+        margin-top:2rem;
+        box-shadow: 2px 2px 3px 1px rgba(170, 170, 170, 0.4);
+        background-color: rgb(255, 253, 234);
+    }
+    .Prod .PImage{
+        width:40%;
+        height:10rem;
+        float:left;
+        display:block;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        
+    
+    }
+    .PImage img{
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height:10rem;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+    
+    }
+    
+    .PImage img:hover{
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height:10.8rem;
+        transform: translate(-0.5rem, -0.4rem);
+        border-top-left-radius: 12px;
+        width:110%;
+        border-bottom-left-radius: 12px;
+    
+    }
+    
+    .Prod .PInfo{
+        width:54%;
+        margin-left:3%;
+        margin-top:0.5rem;
+        margin-bottom: 0.5rem;
+        height:9rem;
+        float:left;
+        display:block;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+    
+    }
+    
+    .PInfo h4{
+        color:rgb(78, 77, 14);
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+/*Responsive CSS for mobile*/
+@media (max-width:550px){
+    .ProductContainer{
+        width:100%;
+        height:80rem;
+        margin-left:0;
+        margin-right:0;
+        display:inline-block;
+        position:relative;
+        
+    }
+    .Container2{
+        width:96%;
+        margin-left:2%;
+        display:block;
+        height:80rem;
+        margin-top:1rem;
+        
+    }
+    .Container2 .Contheader{
+        width:96%;
+        margin-left:2%;
+        float:left;
+        color:rgb(89, 87, 16);
+    }
+    .Btn1{
+        display:none;
+        height:25px;
+        width:25%;
+        background-color:rgb(255, 251, 194);
+        border-radius:12px;
+        text-align:center;
+        padding-top: 0.6rem;
+        float:right;
+        position:absolute;
+        box-shadow: 0px 2px 6px rgba(0,0,0,0.9);
+        top:0.8rem;
+        left:70%;
+    }
+    .Btn1 a{
+        text-decoration: none;
+        Color:rgb(76, 67, 16);
+        font-weight: 500;
+    }
+    
+    
+    
+    
+    .Container2 .Prod{
+        width:92%;
+        margin-left:4%;
+        margin-right:4%;
+        border-radius: 12px;
+        height:10rem;
+        display:block;
+        float:left;
+        margin-top:2rem;
+        box-shadow: 2px 2px 3px 1px rgba(170, 170, 170, 0.4);
+        background-color: rgb(255, 253, 234);
+    }
+    .Prod .PImage{
+        width:40%;
+        height:10rem;
+        float:left;
+        display:block;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        
+    
+    }
+    .PImage img{
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height:10rem;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+    
+    }
+    
+    .PImage img:hover{
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height:10.8rem;
+        transform: translate(-0.5rem, -0.4rem);
+        border-top-left-radius: 12px;
+        width:110%;
+        border-bottom-left-radius: 12px;
+    
+    }
+    
+    .Prod .PInfo{
+        width:54%;
+        margin-left:3%;
+        margin-top:0.5rem;
+        margin-bottom: 0.5rem;
+        height:9rem;
+        float:left;
+        display:block;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+    
+    }
+    
+    .PInfo h4{
+        color:rgb(78, 77, 14);
+    }
+    
+
+}

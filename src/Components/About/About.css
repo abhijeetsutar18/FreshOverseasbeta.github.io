@@ -1,0 +1,476 @@
+.AboutContainer{
+    width:100%;
+    height:50rem;
+    top:0;
+    margin-left:0;
+    margin-right:0;
+    display:inline-block;
+    position:relative;
+}
+
+.Container3{
+    width:100%;
+    height:20rem;
+    margin-top:3.5rem;
+    background-color: rgb(218, 231, 239);
+}
+
+.Wave{
+    width:100%;
+
+}
+.Wave img{
+    width:100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transform:translateY(2rem);
+}
+.Content1{
+    display: block;
+    width:76%;
+    margin-left:12%;
+    height:7rem;
+}
+.Content1 h2{
+    text-align: center;
+    padding-top:0.9rem;
+    padding-bottom:0.5rem;
+    color:rgb(20, 20, 91);
+
+}
+.Content1 h5{
+    text-align: center;
+    font-weight: 400;
+}
+
+
+.Container3 .Content2{
+	width:35%;
+	height: 28rem;
+	display:block;
+	float:left;
+	position:relative;
+	margin-top:1rem;
+	
+}
+.Content2 h3{
+	text-align:center;
+	padding-top:7px;
+    color:rgb(20, 20, 91);
+}
+.Content2 .Sect3img{
+	margin-top:2rem;
+	width:100%;
+	object-fit:fill;
+	left:0;
+}
+
+
+.Container3 .Content3{
+    width:65%;
+	height:28rem;
+	display:block;
+	float:left;
+	position:relative;
+	margin-top:1rem;
+}
+.Content3 .b1c1{
+	display:block;
+	width:30%;
+	height:40%;
+	float:left;
+	margin-right:9%;
+	margin-left:20%;
+	
+}
+.icon1{
+	object-fit:fill;
+	height:60px;
+	width:60px;
+}
+.Content3 .b1c2{
+	display:block;
+	width:30%;
+	height:40%;
+	float:left;
+	margin-right:9%;
+}
+.Content3 .b1c3{
+	display:block;
+	width:30%;
+	height:40%;
+	float:left;
+	margin-right:9%;
+	
+}
+.Content3 .b1c4{
+	display:block;
+	width:30%;
+	margin-right:9%;
+	height:40%;
+	float:left;
+	margin-left:20%;
+}
+.Content3 h4{
+	color:rgb(20, 20, 91);
+	padding-bottom:10px;
+}
+.Content3 p{
+    font-size: 12px;
+}
+
+
+.Sq1{
+    width:14rem;
+    display:block;
+    z-index:-1;
+    height:14rem;
+    position:absolute;
+    top:0.5rem;
+    left:17rem;
+    border-radius: 25px;
+    background-color: rgba(218, 231, 239,0.3);
+
+}
+.Sq2{
+    width:16rem;
+    display:block;
+    z-index:-2;
+    height:16rem;
+    position:absolute;
+    top:9rem;
+    left:6rem;
+    border-radius: 25px;
+    background-color: rgba(218, 231, 239,0.15);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Responsive CSS for Tablets*/
+
+@media (max-width:850px) and (min-width:551px){
+    .AboutContainer{
+        width:100%;
+        height:50rem;
+        top:0;
+        margin-left:0;
+        margin-right:0;
+        display:inline-block;
+        position:relative;
+    }
+    
+    .Container3{
+        width:100%;
+        height:20rem;
+        margin-top:3.5rem;
+        background-color: rgb(218, 231, 239);
+    }
+    
+    .Wave{
+        width:100%;
+    
+    }
+    .Wave img{
+        width:100%;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        transform:translateY(2rem);
+    }
+    .Content1{
+        display: block;
+        width:76%;
+        margin-left:12%;
+        height:8.3rem;
+    }
+    .Content1 h2{
+        text-align: center;
+        padding-top:0.9rem;
+        padding-bottom:0.5rem;
+        color:rgb(20, 20, 91);
+    
+    }
+    .Content1 h5{
+        text-align: center;
+        font-weight: 400;
+    }
+    
+    
+    .Container3 .Content2{
+        width:35%;
+        height: 28rem;
+        display:block;
+        float:left;
+        position:relative;
+        margin-top:1rem;
+        
+    }
+    .Content2 h3{
+        text-align:center;
+        padding-top:7px;
+        color:rgb(20, 20, 91);
+    }
+    .Content2 .Sect3img{
+        margin-top:2rem;
+        width:100%;
+        object-fit:fill;
+        left:0;
+    }
+    
+    
+    .Container3 .Content3{
+        width:65%;
+        height:28rem;
+        display:block;
+        float:left;
+        position:relative;
+        margin-top:1rem;
+    }
+    .Content3 .b1c1{
+        display:block;
+        width:30%;
+        height:40%;
+        float:left;
+        margin-right:9%;
+        margin-left:20%;
+        
+    }
+    .icon1{
+        object-fit:fill;
+        height:60px;
+        width:60px;
+    }
+    .Content3 .b1c2{
+        display:block;
+        width:30%;
+        height:40%;
+        float:left;
+        margin-right:9%;
+    }
+    .Content3 .b1c3{
+        display:block;
+        width:30%;
+        height:40%;
+        float:left;
+        margin-right:9%;
+        
+    }
+    .Content3 .b1c4{
+        display:block;
+        width:30%;
+        margin-right:9%;
+        height:40%;
+        float:left;
+        margin-left:20%;
+    }
+    .Content3 h4{
+        color:rgb(20, 20, 91);
+        padding-bottom:10px;
+    }
+    .Content3 p{
+        font-size: 12px;
+    }
+    
+    
+    .Sq1{
+        width:14rem;
+        display:block;
+        z-index:-1;
+        height:14rem;
+        position:absolute;
+        top:0.1rem;
+        left:30%;
+        border-radius: 25px;
+        background-color: rgba(218, 231, 239,0.3);
+    
+    }
+    .Sq2{
+        width:16rem;
+        display:block;
+        z-index:-2;
+        height:16rem;
+        position:absolute;
+        top:10rem;
+        left:20%;
+        border-radius: 25px;
+        background-color: rgba(218, 231, 239,0.15);
+    
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsive CSS for Mobile*/
+
+@media (max-width:550px){
+    .AboutContainer{
+        width:100%;
+        height:80rem;
+        top:0;
+        margin-left:0;
+        margin-right:0;
+        display:inline-block;
+        position:relative;
+    }
+    
+    .Container3{
+        width:100%;
+        height:25rem;
+        margin-top:3.5rem;
+        background-color: rgb(218, 231, 239);
+    }
+    
+    .Wave{
+        width:100%;
+    
+    }
+    .Wave img{
+        width:100%;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        transform:translateY(0rem);
+    }
+    .Content1{
+        display: block;
+        width:76%;
+        margin-left:12%;
+        height:20rem;
+    }
+    .Content1 h2{
+        text-align: center;
+        padding-top:0.9rem;
+        padding-bottom:0.5rem;
+        color:rgb(20, 20, 91);
+    
+    }
+    .Content1 h5{
+        text-align: center;
+        font-weight: 400;
+    }
+    
+    
+    .Container3 .Content2{
+        width:100%;
+        height: 25rem;
+        display:block;
+        float:left;
+        position:relative;
+        margin-top:1rem;
+        
+    }
+    .Content2 h3{
+        text-align:center;
+        padding-top:7px;
+        color:rgb(20, 20, 91);
+        font-size: 1.5rem;
+    }
+    .Content2 .Sect3img{
+        margin-top:2rem;
+        width:100%;
+        object-fit:fill;
+        left:0;
+    }
+    
+    
+    .Container3 .Content3{
+        width:100%;
+        height:28rem;
+        display:block;
+        float:left;
+        position:relative;
+        margin-top:1rem;
+    }
+    .Content3 .b1c1{
+        display:block;
+        width:30%;
+        height:40%;
+        float:left;
+        margin-right:9%;
+        margin-left:20%;
+        
+    }
+    .icon1{
+        object-fit:fill;
+        height:60px;
+        width:60px;
+    }
+    .Content3 .b1c2{
+        display:block;
+        width:30%;
+        height:40%;
+        float:left;
+        margin-right:9%;
+    }
+    .Content3 .b1c3{
+        display:block;
+        width:30%;
+        height:40%;
+        float:left;
+        margin-right:9%;
+        
+    }
+    .Content3 .b1c4{
+        display:block;
+        width:30%;
+        margin-right:9%;
+        height:40%;
+        float:left;
+        margin-left:20%;
+    }
+    .Content3 h4{
+        color:rgb(20, 20, 91);
+        padding-bottom:10px;
+    }
+    .Content3 p{
+        font-size: 12px;
+    }
+    
+    
+    .Sq1{
+        width:11rem;
+        display:block;
+        z-index:-1;
+        height:11rem;
+        position:absolute;
+        top:0.5rem;
+        left:40%;
+        border-radius: 25px;
+        background-color: rgba(218, 231, 239,0.3);
+    
+    }
+    .Sq2{
+        width:16rem;
+        display:block;
+        z-index:-2;
+        height:16rem;
+        position:absolute;
+        top:7rem;
+        left:10%;
+        border-radius: 25px;
+        background-color: rgba(218, 231, 239,0.15);
+    
+    }
+
+
+}
