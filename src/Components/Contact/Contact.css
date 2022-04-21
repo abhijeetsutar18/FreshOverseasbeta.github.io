@@ -99,17 +99,17 @@ label{
 
 
 
-.SocialIcons{
-    display:block;
-    width:80%;
-    height:3rem;
-    margin-left:0;
-    margin-top:0;
-    color:white;
-}
-.SocialIcons a{
-    color:white;
-}
+.Social{
+        display:flex;
+        width:80%;
+        height:3rem;
+        margin-left:1rem;
+        margin-top:2rem;
+        color:white;
+    }
+.Social a{
+        color:white;
+    }
 
 
 
@@ -237,17 +237,16 @@ label{
     
     
     
-    .SocialIcons{
-        display:block;
+    .Social{
+        display:flex;
         width:80%;
         height:3rem;
-        margin-left:0;
-        margin-top:0;
+        margin-left:1rem;
+        margin-top:2rem;
         color:white;
     }
-    .SocialIcons a{
+    .Social a{
         color:white;
-        text-decoration: white;
     }
    
 
