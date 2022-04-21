@@ -27,23 +27,23 @@ const Navbar = () => {
               
                 <div className={active}>
                     <ul>
-                        <Link spy={true} to='Home' activeClass="Active">
+                        <Link spy={true} to='Home' activeClass="Active" smooth={true}>
                         <li>Home</li>
                         </Link>
                         
-                        <Link spy={true} to='Products' activeClass="Active">
+                        <Link spy={true} to='Products' activeClass="Active" smooth={true}>
                         <li>Products</li>
                         </Link>
 
-                        <Link spy={true} to='About'  activeClass="Active">
+                        <Link spy={true} to='About'  activeClass="Active" smooth={true}>
                         <li>About</li>
                         </Link>
 
-                        <Link spy={true} to='Enquiry'  activeClass="Active">
+                        <Link spy={true} to='Enquiry'  activeClass="Active" smooth={true}>
                         <li>Certificates</li>
                         </Link>
 
-                        <Link spy={true} to='Contact'  activeClass="Active">
+                        <Link spy={true} to='Contact'  activeClass="Active" smooth={true}>
                         <li>Contact</li>
                         </Link>
                         
