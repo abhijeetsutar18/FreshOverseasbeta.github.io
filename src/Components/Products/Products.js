@@ -19,8 +19,8 @@ const Products = () => {
                     <div className="Contheader">
                         <h2>Our Range of Fresh Products</h2>
                         <div className="Btn1">
-                            <Link spy={true} to='Contact'  activeClass="Active">
-                                <p>Get QuOtation</p>
+                            <Link spy={true} to='Contact'  activeClass="Active" smooth={true}>
+                                <p>Get Quotation</p>
                             </Link>
 	                    </div>
                     </div>
