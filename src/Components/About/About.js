@@ -49,7 +49,7 @@ const About = () => {
 				            </div>
 				            <div className="c1c2">
 					            <br/><h4>Direct Purchase</h4>
-					            <p>This is the most important factor of process in our business. </p>
+					            <p>We purchase our fresh products directly from farmers </p>
 				            </div>
 			            </div>
 
@@ -59,7 +59,7 @@ const About = () => {
 				            </div>
 				            <div className="c1c2">
 					            <br/><h4>Warehousing</h4>
-					            <p>This is the most important factor of process in our business. </p>
+					            <p>Our Fresh products are brought to our warehouse  </p>
 				            </div>
 			            </div>
 			
@@ -70,7 +70,7 @@ const About = () => {
 				            </div>
 				            <div className="c1c2">
 					            <br/><h4>Grading and Packing</h4>
-					            <p>This is the most important factor of process in our business. </p>
+					            <p>Before packing, grading is done to ensure only best product is delivered </p>
 				            </div>
 			            </div>
 			
@@ -81,7 +81,7 @@ const About = () => {
 				            </div>
 				            <div className="c1c2">
 					            <br/><h4>Distribution</h4>
-					            <p>This is the most important factor of process in our business. </p>
+					            <p>Our fresh products is then timely delivered to our clients through seaways or by airways </p>
 				            </div>
 			            </div>
 
