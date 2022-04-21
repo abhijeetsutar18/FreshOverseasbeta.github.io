@@ -64,9 +64,12 @@ const Foot = () => {
                         freshoverseas@outlook.com    
                     </p>
                 </div>
-        
+                
 
             </div>
+            <footer>
+                <p>&copy; 2022 All rights reserved by Fresh Overseas. Designed and developed by Abhijeet Sutar</p>
+            </footer>
         </>
     );
 };
