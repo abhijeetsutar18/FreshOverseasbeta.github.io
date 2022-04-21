@@ -97,7 +97,11 @@
 .SocialIcons a{
     color:black;
 }
-
+Footer p{
+    font-size:10px;
+    text-align: center;
+    padding-bottom: 5px;
+}
 
 
 
