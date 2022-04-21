@@ -29,7 +29,7 @@ const Home = () => {
                     </h5>
                 </div>
                 <div className="Banbtn">
-                    <Link spy={true} to='Contact'  activeClass="Active">
+                    <Link spy={true} to='Contact'  activeClass="Active" smooth={true}>
                         <p>Get in touch</p>
                     </Link>
 	            </div>
