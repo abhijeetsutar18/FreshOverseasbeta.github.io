@@ -52,7 +52,7 @@ const Contact = () => {
                         <h5>Website :</h5>
                         <p>www.freshoverseas.com</p>
                         <h5>Social Handles :</h5>
-                        <div className="SocialIcons">
+                        <div className="Social">
                             <a href="www.instagram.com/freshoverseas" target="_blank"><FaInstagram/></a>
                             <a href="www.twitter.com" target="_blank"><FaTwitter/></a>
                             <a href="www.facebook.com" target="_blank"><FaFacebook/></a>
